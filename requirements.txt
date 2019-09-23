@@ -32,11 +32,13 @@ pandas==0.24.1
 scipy==1.2.1
 
 
+
+
 ##### Machine Learning packages
 scikit-learn==0.20.3
 
 # Optional: the XGBoost library is only used in the ensemble learning chapter.
-xgboost==0.82
+#xgboost==0.82
 
 
 ##### Deep Learning packages
@@ -80,3 +82,9 @@ urlextract==0.9
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
 tqdm==4.31.1
 ipywidgets==7.4.2
+
+
+# pytorch for delip rao
+torch
+annoy
+
